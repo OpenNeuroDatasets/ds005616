@@ -2,7 +2,7 @@
 
 ## Dataset Description
 
-This dataset includes structural MRI (T1-weighted) and simulated ΔB0 field maps for sixty volunteers. Participants were scanned using two Siemens 3T MRI scanners (MAGNETOM Tim Trio and Verio) equipped with head, neck, and spine coils. The scans cover anatomical regions extending from the head to the torso and include lateral fields encompassing both lungs.
+This dataset includes structural MRI (T1-weighted) and simulated ΔB0 field maps for sixty volunteers. Participants were scanned using two Siemens 3T MRI scanners (MAGNETOM Tim Trio and Verio) equipped with head, neck, and spine coils. The scans cover anatomical regions extending from the head to the torso and include lateral fields encompassing most of both lungs.
 
 All data is organized in BIDS format and is available on OpenNeuro.
 
