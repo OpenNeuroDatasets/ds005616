@@ -4,7 +4,8 @@
     "Authors": [
         "Nathan Molinier",
         "Sandrine Bédard",
-        "Mathieu Boudreau"
+        "Mathieu Boudreau",
+        "Julien Cohen-Adad"
     ],
     "DatasetDOI": "doi:10.18112/openneuro.ds005616.v1.0.0",
     "License": "CC0"
