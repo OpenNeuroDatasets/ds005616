@@ -1,0 +1,29 @@
+{
+    "author": "mathieuboudreau",
+    "date": "2024-11-04 00:09:53",
+    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/save_segment.py",
+    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation",
+    "script commit hash": "61bcd2e91be94111d0e2cfa7d706eea712af3c6d",
+    "input file": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuMD/anat/sub-amuMD_T1w_label-air_tissue.nii.gz",
+    "label": {
+        "anatomy": "body",
+        "value": 1,
+        "input file value": 1,
+        "processing steps": {
+            "0": {
+                "union": {
+                    "merged_segments": [
+                        "Segment_2",
+                        "Segment_3",
+                        "Segment_4",
+                        "Segment_5",
+                        "Segment_6"
+                    ]
+                }
+            }
+        }
+    },
+    "command": "/Applications/Slicer.app/Contents/MacOS/Slicer --python-script /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/save_segment.py -m /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/sub-amuMD/anat/sub-amuMD_T1w.nii.gz -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuMD/anat/sub-amuMD_T1w_label-air_tissue.nii.gz -o /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuMD/anat/sub-amuMD_T1w_label-body-raw.nii.gz -a body",
+    "slicer version": "5.6",
+    "slicer repository revision": "f10cd8c"
+}
