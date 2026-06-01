@@ -1,3 +1,8 @@
+1.0.2 2026-06-01
+  - Reverted to 1.0.1
+  - Float->int brain labels of two subjects that were incorrectly exported
+  - Re-ran B0 simulation post-FFT shift and DC fix
+  - Added shimmed versions of the simulated B0 fieldmap
 1.0.1 2024-11-05
   - Update README and authors
 1.0.0 2024-11-05
