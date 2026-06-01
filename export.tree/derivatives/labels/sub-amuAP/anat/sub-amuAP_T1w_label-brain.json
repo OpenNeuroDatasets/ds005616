@@ -1,0 +1,34 @@
+{
+    "author": "mathieuboudreau",
+    "date": "2024-11-03 23:33:04",
+    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/smooth_segment.py",
+    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation",
+    "script commit hash": "61bcd2e91be94111d0e2cfa7d706eea712af3c6d",
+    "input file": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuAP/anat/sub-amuAP_T1w_label-brainonly_merged.nii.gz",
+    "label": {
+        "anatomy": "brain",
+        "value": 1,
+        "input file value": 56,
+        "processing steps": {
+            "0": {
+                "islands": {
+                    "operation": "REMOVE_SMALL_ISLANDS"
+                }
+            },
+            "1": {
+                "smoothing": {
+                    "method": "GAUSSIAN",
+                    "kernel_size_mm": 2
+                }
+            },
+            "2": {
+                "grow": {
+                    "margin_mm": 1
+                }
+            }
+        }
+    },
+    "command": "/Applications/Slicer.app/Contents/MacOS/Slicer --python-script /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/smooth_segment.py -m /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/sub-amuAP/anat/sub-amuAP_T1w.nii.gz -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuAP/anat/sub-amuAP_T1w_label-brainonly_merged.nii.gz -o /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuAP/anat/sub-amuAP_T1w_label-brain.nii.gz -a brain",
+    "slicer version": "5.6",
+    "slicer repository revision": "f10cd8c"
+}
