@@ -1,11 +1,11 @@
 {
     "author": "mathieuboudreau",
-    "date": "2024-11-04 09:15:50",
-    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/label_to_chi.py",
-    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation",
-    "script commit hash": "61bcd2e91be94111d0e2cfa7d706eea712af3c6d",
-    "input file": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfPain006/anat/sub-unfPain006_T1w_label-all.nii.gz",
-    "command": "python label_to_chi.py -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/sub-unfPain006",
+    "date": "2026-01-09 08:44:40",
+    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/b0-fieldmap-realistic-simulation/b0realsim/label_to_chi.py",
+    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation.git",
+    "script commit hash": "626801c40491cf9b61540c4f13ed1c2553d097b1",
+    "input file": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/data/whole-spine/derivatives/labels/sub-unfPain006/anat/sub-unfPain006_T1w_label-all.nii.gz",
+    "command": "python label_to_chi.py -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/data/whole-spine/sub-unfPain006",
     "anatomy": {
         "background": {
             "label": 0,

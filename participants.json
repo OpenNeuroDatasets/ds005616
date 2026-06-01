@@ -46,9 +46,5 @@
     "institution": {
         "Description": "Human-friendly institution name",
         "LongName": "BIDS Institution ID"
-    },
-    "stenosis": {
-        "Description": "All levels of stenosis identified by Sandrine Bédard",
-        "LongName":"All levels of stenosis"
     }
 }
