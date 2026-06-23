@@ -1,10 +1,10 @@
 {
     "author": "mathieuboudreau",
-    "date": "2026-01-08 23:30:07",
-    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/smooth_segment.py",
-    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation.git",
-    "script commit hash": "626801c40491cf9b61540c4f13ed1c2553d097b1",
-    "input file": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/data/whole-spine/derivatives/labels/sub-amuMLL/anat/sub-amuMLL_T1w_label-earcanal-raw.nii.gz",
+    "date": "2024-11-04 00:14:56",
+    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/smooth_segment.py",
+    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation",
+    "script commit hash": "61bcd2e91be94111d0e2cfa7d706eea712af3c6d",
+    "input file": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuMLL/anat/sub-amuMLL_T1w_label-earcanal-raw.nii.gz",
     "label": {
         "anatomy": "earcanal",
         "value": 1,
@@ -28,7 +28,7 @@
             }
         }
     },
-    "command": "/Applications/Slicer.app/Contents/MacOS/Slicer --python-script /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/smooth_segment.py -m /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/data/whole-spine/sub-amuMLL/anat/sub-amuMLL_T1w.nii.gz -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/data/whole-spine/derivatives/labels/sub-amuMLL/anat/sub-amuMLL_T1w_label-earcanal-raw.nii.gz -o /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-rerun-pipeline/data/whole-spine/derivatives/labels/sub-amuMLL/anat/sub-amuMLL_T1w_label-earcanal.nii.gz -a earcanal",
+    "command": "/Applications/Slicer.app/Contents/MacOS/Slicer --python-script /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/smooth_segment.py -m /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/sub-amuMLL/anat/sub-amuMLL_T1w.nii.gz -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuMLL/anat/sub-amuMLL_T1w_label-earcanal-raw.nii.gz -o /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuMLL/anat/sub-amuMLL_T1w_label-earcanal.nii.gz -a earcanal",
     "slicer version": "5.6",
     "slicer repository revision": "f10cd8c"
 }
