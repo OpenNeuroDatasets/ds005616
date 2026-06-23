@@ -1,0 +1,17 @@
+{
+    "author": "mathieuboudreau",
+    "date": "2024-11-04 01:18:54",
+    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/save_segment.py",
+    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation",
+    "script commit hash": "61bcd2e91be94111d0e2cfa7d706eea712af3c6d",
+    "input file": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm011/anat/sub-unfErssm011_T1w_label-brain_dseg.nii.gz",
+    "label": {
+        "anatomy": "skin",
+        "value": 1,
+        "input file value": 258,
+        "processing steps": null
+    },
+    "command": "/Applications/Slicer.app/Contents/MacOS/Slicer --python-script /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/save_segment.py -m /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/sub-unfErssm011/anat/sub-unfErssm011_T1w.nii.gz -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm011/anat/sub-unfErssm011_T1w_label-brain_dseg.nii.gz -o /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm011/anat/sub-unfErssm011_T1w_label-skin.nii.gz -a skin",
+    "slicer version": "5.6",
+    "slicer repository revision": "f10cd8c"
+}
