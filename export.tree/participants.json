@@ -1,0 +1,54 @@
+{
+    "participant_id": {
+        "Description": "Unique Participant ID",
+        "LongName": "Participant ID"
+    },
+    "source_id": {
+        "Description": "Subject ID in the source unprocessed data",
+        "LongName": "Subject ID in the source unprocessed data"
+    },
+    "species": {
+        "Description": "Binomial species name of participant",
+        "LongName": "Species"
+    },
+    "age": {
+        "Description": "Participant age",
+        "LongName": "Participant age",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female",
+            "O": "other"
+        }
+    },
+    "height (cm)": {
+        "Description": "Height of the participant as reported by the participant",
+        "Units": "cm"
+    },
+    "weight (kg)": {
+        "Description": "Weight of the participant as reported by the participant",
+        "Units": "kg"
+    },
+    "pathology": {
+        "Description": "The diagnosis of pathology of the participant",
+        "LongName": "Pathology name",
+        "Levels": {
+            "HC": "Healthy Control",
+            "DCM": "Degenerative Cervical Myelopathy (synonymous with CSM - Cervical Spondylotic Myelopathy)",
+            "MildCompression": "Asymptomatic cord compression, without myelopathy",
+            "MS": "Multiple Sclerosis",
+            "SCI": "Traumatic Spinal Cord Injury"
+        }
+    },
+    "institution": {
+        "Description": "Human-friendly institution name",
+        "LongName": "BIDS Institution ID"
+    },
+    "stenosis": {
+        "Description": "All levels of stenosis identified by Sandrine Bédard",
+        "LongName":"All levels of stenosis"
+    }
+}

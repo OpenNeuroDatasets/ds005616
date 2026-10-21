@@ -1,0 +1,61 @@
+{
+    "author": "mathieuboudreau",
+    "date": "2024-11-04 01:06:19",
+    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/merge_labels.py",
+    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation",
+    "script commit hash": "61bcd2e91be94111d0e2cfa7d706eea712af3c6d",
+    "input files": [
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-air_tissue.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-canal_seg.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-spine_dseg.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-brain.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-skull.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-eyes.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-skin.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-sinus.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-earcanal.nii.gz",
+        "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-unfErssm007/anat/sub-unfErssm007_T1w_label-body.nii.gz"
+    ],
+    "anatomy": {
+        "background": {
+            "label": 0
+        },
+        "body": {
+            "label": "1"
+        },
+        "sinus": {
+            "label": 2
+        },
+        "earcanal": {
+            "label": 3
+        },
+        "trachea": {
+            "label": 4
+        },
+        "rightlung": {
+            "label": 5
+        },
+        "leftlung": {
+            "label": 6
+        },
+        "brain": {
+            "label": 56
+        },
+        "eyes": {
+            "label": 60
+        },
+        "skull": {
+            "label": 91
+        },
+        "verterbae": {
+            "label": 92
+        },
+        "disks": {
+            "label": 93
+        },
+        "canal": {
+            "label": 100
+        }
+    },
+    "command": "python merge_labels.py -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/sub-unfErssm007"
+}
