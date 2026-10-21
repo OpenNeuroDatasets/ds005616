@@ -1,0 +1,17 @@
+{
+    "author": "mathieuboudreau",
+    "date": "2024-11-03 23:25:29",
+    "script": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/save_segment.py",
+    "script source": "https://github.com/shimming-toolbox/b0-fieldmap-realistic-simulation",
+    "script commit hash": "61bcd2e91be94111d0e2cfa7d706eea712af3c6d",
+    "input file": "/Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuAM/anat/sub-amuAM_T1w_label-air_tissue.nii.gz",
+    "label": {
+        "anatomy": "earcanal",
+        "value": 1,
+        "input file value": 3,
+        "processing steps": null
+    },
+    "command": "/Applications/Slicer.app/Contents/MacOS/Slicer --python-script /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/b0-fieldmap-realistic-simulation/b0realsim/slicer_scripts/save_segment.py -m /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/sub-amuAM/anat/sub-amuAM_T1w.nii.gz -s /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuAM/anat/sub-amuAM_T1w_label-air_tissue.nii.gz -o /Users/mathieuboudreau/neuropoly/projects/shimming-toolbox/data/data.neuro.polymtl.ca/whole-spine/derivatives/labels/sub-amuAM/anat/sub-amuAM_T1w_label-earcanal-raw.nii.gz -a earcanal",
+    "slicer version": "5.6",
+    "slicer repository revision": "f10cd8c"
+}
